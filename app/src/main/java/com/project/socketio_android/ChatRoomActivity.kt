@@ -1,4 +1,4 @@
-package com.junga.socketio_android
+package com.project.socketio_android
 
 import android.os.Bundle
 import android.util.Log
@@ -6,7 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
-import com.junga.socketio_android.model.MessageType
+import com.project.socketio_android.model.MessageType
 import io.socket.client.IO
 import io.socket.client.Socket
 import io.socket.emitter.Emitter

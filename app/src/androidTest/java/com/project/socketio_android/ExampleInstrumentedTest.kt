@@ -1,4 +1,4 @@
-package com.junga.socketio_android
+package com.project.socketio_android
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.junga.socketio_android", appContext.packageName)
+        assertEquals("com.project.socketio_android", appContext.packageName)
     }
 }

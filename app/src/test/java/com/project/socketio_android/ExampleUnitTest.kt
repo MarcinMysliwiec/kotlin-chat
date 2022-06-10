@@ -1,4 +1,4 @@
-package com.junga.socketio_android
+package com.project.socketio_android
 
 import org.junit.Test
 

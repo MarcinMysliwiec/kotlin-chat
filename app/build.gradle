@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 32
     defaultConfig {
-        applicationId "com.junga.socketio_android"
+        applicationId "com.project.socketio_android"
         minSdkVersion 22
         targetSdkVersion 32
         versionCode 1

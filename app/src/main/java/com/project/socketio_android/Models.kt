@@ -1,4 +1,4 @@
-package com.junga.socketio_android
+package com.project.socketio_android
 
 data class Message (val userName : String, val messageContent : String, val roomName: String,var viewType : Int)
 data class initialData (val userName : String, val roomName : String)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.junga.socketio_android">
+    package="com.project.socketio_android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ChatRoomActivity"></activity>
-        <activity android:name=".EntranceActivity"
+        <activity android:name="com.project.socketio_android.ChatRoomActivity"></activity>
+        <activity android:name="com.project.socketio_android.EntranceActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
